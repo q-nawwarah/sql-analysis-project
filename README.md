@@ -5,6 +5,7 @@ Analyze COVID-19 trends to identify key patterns and evaluate vaccination impact
 
 ## Data source
 - Our World in Data (OWID) COVID dataset: https://ourworldindata.org/coronavirus
+- Link to data : https://drive.google.com/file/d/1OFMuyXmCVpOHobphzrFsg7zhr_u3XkDL/view?usp=drive_link
 
 ## Repo structure
 data/
