@@ -1,0 +1,20 @@
+# python & env
+__pycache__/
+*.pyc
+.env
+.vscode/
+
+# local DB
+*.sqlite
+*.db
+
+# OS
+.DS_Store
+
+# Large BI files
+*.pbix
+*.twbx
+*.xlsx
+
+# Notebook checkpoints
+.ipynb_checkpoints/
