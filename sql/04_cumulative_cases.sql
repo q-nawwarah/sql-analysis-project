@@ -1,6 +1,6 @@
 -- 04_cumulative_cases.sql
 -- Purpose: Build cumulative trend to validate total vs daily
--- 
+-- Dataset: Our World in Data- Covid-19 (owid_covid_data)
 -- Author: Nawwarah
 -- Date: October 2025
 
