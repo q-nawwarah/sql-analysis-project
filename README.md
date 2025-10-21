@@ -7,31 +7,32 @@ The goal is to perform **data exploration and analysis using SQL (BigQuery)** on
 
 ## 📁 Project Structure
 
+sql-analysis-project/
+├── README.md
 ├── data/
-│ └── covid19_owid_2020_2021.csv
+│   └── owid_covid_data.csv
 ├── queries/
-│ ├── 01_quick_sanity_check.sql
-│ ├── 02_date_range.sql
-│ ├── 03_daily_new_cases.sql
-│ ├── 04_cumulative_cases.sql
-│ ├── 05_missing_data_check.sql
-│ ├── 06_monthly_summary.sql
-│ ├── 07_peak_cases.sql
-│ ├── 08_death_rate.sql
-│ ├── 09_regional_comparison.sql
-│ └── 10_export_clean_data.sql
+│   ├── 01_quick_sanity_check.sql
+│   ├── 02_date_range.sql
+│   ├── 03_daily_new_cases.sql
+│   ├── 04_cumulative_cases.sql
+│   ├── 05_missing_data_check.sql
+│   ├── 06_monthly_summary.sql
+│   ├── 07_peak_cases.sql
+│   ├── 08_death_rate.sql
+│   ├── 09_regional_comparison.sql
+│   └── 10_export_clean_data.sql
 ├── results/
-│ ├── charts/
-│ │ ├── new_cases_trend.png
-│ │ ├── death_rate_by_region.png
-│ │ └── peak_cases_summary.png
-│ └── csv_output/
-│ ├── monthly_summary.csv
-│ ├── death_rate_by_country.csv
-│ └── regional_comparison.csv
-├── powerbi/
-│ └── covid19_dashboard.pbix
-└── README.md
+│   ├── csv/
+│   │   ├── daily_new_cases.csv
+│   │   ├── monthly_summary.csv
+│   │   └── death_rate.csv
+│   └── charts/
+│       ├── daily_new_cases.png
+│       ├── monthly_summary.png
+│       └── death_rate.png
+└── powerbi/
+    └── covid_dashboard.pbix
 
 ---
 
